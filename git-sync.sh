@@ -7,6 +7,9 @@
 #       没配 remote 也能先本地提交，只是不推送。
 set -euo pipefail
 
+# 无头环境（定时任务/非交互）下禁止弹输入框，认证失败时直接报错退出而非卡死
+export GIT_TERMINAL_PROMPT=0
+
 # 进入脚本所在目录（skill 根目录），保证从任意位置调用都操作本仓库
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
@@ -45,5 +48,12 @@ if ! git remote get-url origin >/dev/null 2>&1; then
 fi
 
 BRANCH="$(git rev-parse --abbrev-ref HEAD)"
-git push -u origin "$BRANCH"
+# 无头环境（定时任务）下用 GIT_SYNC_HELPER=store 强制读缓存的 token，
+# 绕过交互式 credential-helper-selector（它在无界面环境下会直接失败）。
+# 正常手动使用时无需设此变量，脚本走系统默认凭据链。
+HELPER_ARG=""
+if [ -n "${GIT_SYNC_HELPER:-}" ]; then
+  HELPER_ARG="-c credential.helper=${GIT_SYNC_HELPER}"
+fi
+git ${HELPER_ARG} push -u origin "$BRANCH"
 echo "✓ 已推送到 origin/$BRANCH"
