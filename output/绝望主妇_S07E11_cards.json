@@ -1,0 +1,186 @@
+{
+  "deck_name": "绝望主妇 S07E11",
+  "synopsis": "Paul 在自家门外遭枪击重伤，警方调查时 Beth 怀疑是母亲 Felicia 派的人（Paul 其实早已知情）；Susan 因暴乱时被踩踏送医，发现一颗肾已坏，另一个也只剩 5% 功能，必须透析并最终肾移植；Gaby 带 Juanita 接受心理治疗，医嘱是「把 Grace 从生活里彻底删除」，Gaby 无奈去买仿真娃娃以填补思念；Renee 在客户提案成功后终于向 Lynette 坦白 20 年前曾与 Tom 发生关系，Lynette 崩溃；Bree 拒绝回 Orson，但答应让他暂住几晚，Keith 怒而搬走。",
+  "cards": [
+    {
+      "word": "kidney",
+      "phonetic": "/ˈkɪdni/",
+      "pos": "n.",
+      "meaning": "肾、肾脏",
+      "example": "They had to remove one kidney and discovered the other one is deformed.",
+      "example_translation": "他们不得不摘除了一颗肾，又发现另一颗是畸形的。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "dialysis",
+      "phonetic": "/daɪˈæləsɪs/",
+      "pos": "n.",
+      "meaning": "透析（肾功能衰竭时用机器代替肾工作）",
+      "example": "We need to get you on dialysis — it's six hours a day, four times a week.",
+      "example_translation": "我们得让你做透析——每周四次，每次 6 小时。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "transplant",
+      "phonetic": "/trænsˈplænt/",
+      "pos": "n./v.",
+      "meaning": "（器官）移植",
+      "example": "Eventually you'll need a kidney transplant, but that could take 3 to 5 years.",
+      "example_translation": "最终你得做肾移植，但那可能要等 3 到 5 年。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "specialist",
+      "phonetic": "/ˈspeʃəlɪst/",
+      "pos": "n.",
+      "meaning": "专家、专科医生",
+      "example": "He's a top kidney specialist — I really want you to talk to him.",
+      "example_translation": "他是顶级的肾病专家——你真的应该去问问他。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "deformed",
+      "phonetic": "/dɪˈfɔːrmd/",
+      "pos": "adj.",
+      "meaning": "畸形的、变形的",
+      "example": "The other kidney is deformed — it's only operating at about 5%.",
+      "example_translation": "另一颗肾是畸形的——只能维持大概 5% 的功能。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "rupture",
+      "phonetic": "/ˈrʌptʃər/",
+      "pos": "v./n.",
+      "meaning": "破裂、断裂",
+      "example": "The kidney had ruptured and you were bleeding internally.",
+      "example_translation": "那颗肾已经破裂了，你体内在出血。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "donor",
+      "phonetic": "/ˈdoʊnər/",
+      "pos": "n.",
+      "meaning": "捐赠者（常指器官/血液捐赠人）",
+      "example": "You'll be on dialysis until they find you a matching donor.",
+      "example_translation": "在找到配型成功的捐赠者之前，你都得做透析。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "canvass",
+      "phonetic": "/ˈkænvəs/",
+      "pos": "v.",
+      "meaning": "走访调查、拉票（挨家挨户询问意见）",
+      "example": "We canvassed your neighborhood to determine if anyone had a motive.",
+      "example_translation": "我们走访了你家街区，看谁有作案动机。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "alibi",
+      "phonetic": "/ˈæləbaɪ/",
+      "pos": "n.",
+      "meaning": "不在场证明",
+      "example": "So far every neighbor has a solid alibi for the night of the shooting.",
+      "example_translation": "目前每位邻居都有可靠的不在场证明，能证明枪击当晚不在场。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "motive",
+      "phonetic": "/ˈmoʊtɪv/",
+      "pos": "n.",
+      "meaning": "动机、目的",
+      "example": "Half the street had a motive to shoot Paul Young.",
+      "example_translation": "这条街有一半的人都有对 Paul Young 下手的动机。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "investigate",
+      "phonetic": "/ɪnˈvestɪɡeɪt/",
+      "pos": "v.",
+      "meaning": "调查、研究",
+      "example": "Detectives were called in to investigate the shooting.",
+      "example_translation": "警方调来侦探调查这起枪击案。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "incarcerated",
+      "phonetic": "/ɪnˈkɑːrsəreɪtɪd/",
+      "pos": "adj.",
+      "meaning": "被监禁的、被关押的",
+      "example": "He was wrongfully incarcerated for 8 years before the truth came out.",
+      "example_translation": "他被冤枉地关了 8 年才真相大白。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "wrongful",
+      "phonetic": "/ˈrɔːŋfl/",
+      "pos": "adj.",
+      "meaning": "不公正的、冤枉的（常用于 wrongful arrest / death / incarceration）",
+      "example": "She received a large settlement for her wrongful incarceration.",
+      "example_translation": "她因冤狱拿到了大笔和解金。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "affair",
+      "phonetic": "/əˈfer/",
+      "pos": "n.",
+      "meaning": "婚外情、（与某人的）不正当关系",
+      "example": "Twenty years ago I had a one-weekend affair with Tom.",
+      "example_translation": "20 年前我和 Tom 有过一个周末的婚外情。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "confess",
+      "phonetic": "/kənˈfes/",
+      "pos": "v.",
+      "meaning": "坦白、承认（过错或罪行）",
+      "example": "Renee finally confessed the affair to Lynette.",
+      "example_translation": "Renee 终于向 Lynette 坦白了那段婚外情。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "devastated",
+      "phonetic": "/ˈdevəsteɪtɪd/",
+      "pos": "adj.",
+      "meaning": "极度沮丧的、崩溃的",
+      "example": "Lynette was absolutely devastated when she found out.",
+      "example_translation": "Lynette 知道的那一刻彻底崩溃了。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "platonic",
+      "phonetic": "/pləˈtɑːnɪk/",
+      "pos": "adj.",
+      "meaning": "柏拉图式的（精神恋爱，无肉体关系）",
+      "example": "He insists their relationship was purely platonic.",
+      "example_translation": "他坚称他们的关系完全只是柏拉图式的。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "consult",
+      "phonetic": "/kənˈsʌlt/",
+      "pos": "v.",
+      "meaning": "咨询、请教",
+      "example": "You should consult a kidney specialist before making a decision.",
+      "example_translation": "在作决定前你应该去咨询一下肾病专家。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "intimate",
+      "phonetic": "/ˈɪntɪmət/",
+      "pos": "adj.",
+      "meaning": "亲密的、密切的；（名词）密友",
+      "example": "I never thought my best friend would keep such an intimate secret from me.",
+      "example_translation": "我从没想过我最好的朋友会对我藏着这么私密的秘密。",
+      "source": "绝望主妇 S07E11"
+    },
+    {
+      "word": "reconcile",
+      "phonetic": "/ˈrekənsaɪl/",
+      "pos": "v.",
+      "meaning": "和解、和好；调和",
+      "example": "They didn't speak for months, but they finally reconciled over coffee.",
+      "example_translation": "他们好几个月没说话，最后喝了一杯咖啡才和好。",
+      "source": "绝望主妇 S07E11"
+    }
+  ]
+}

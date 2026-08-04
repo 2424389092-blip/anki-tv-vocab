@@ -1,0 +1,12 @@
+# Anki package / audio artifacts (generated, not source)
+*.apkg
+*.mp3
+*.wav
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# Local temp / scratch
+*.tmp
+.DS_Store

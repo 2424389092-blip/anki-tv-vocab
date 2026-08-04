@@ -1,0 +1,23 @@
+{
+  "deck_name": "Test Deck",
+  "cards": [
+    {
+      "word": "available",
+      "phonetic": "/əˈveɪləbl/",
+      "pos": "adj.",
+      "meaning": "有空的；可获得的",
+      "example": "Are you available tonight?",
+      "example_translation": "你今晚有空吗？",
+      "source": "Friends S01E01"
+    },
+    {
+      "word": "ridiculous",
+      "phonetic": "/rɪˈdɪkjələs/",
+      "pos": "adj.",
+      "meaning": "荒唐的；可笑的",
+      "example": "That's ridiculous, and you know it.",
+      "example_translation": "那太荒唐了，你知道的。",
+      "source": "Friends S01E01"
+    }
+  ]
+}
