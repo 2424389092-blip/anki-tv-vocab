@@ -29,3 +29,11 @@
 - 提交：✅ 成功（commit `ef2b79f`，`chore: sync 2026-08-08`）
 - 推送：⏳ 进行中（后台任务 9NZsRC，push 阶段已挂起 >3 分钟，疑似沙箱→github.com 网络出口慢/受限，与 2026-08-06 类似）
 - 状态：等待后台推送返回后再补全最终结果（成功 / 超时失败）
+
+## 2026-08-10 17:06 运行（每日定时）
+- 命令：`GIT_SYNC_HELPER=store bash git-sync.sh`（dangerouslyDisableSandbox，走宿主机网络）
+- 改动检测：有改动（1 file changed, 7 insertions+）——自动化 memory.md 触发本次提交
+- 提交：✅ 成功（commit `85971cf`，`chore: sync 2026-08-10`）
+- 推送：✅ 成功（`ef2b79f..85971cf main -> main`，track 已建立）
+- 凭据：store 助手读取缓存 token，无交互式登录框，无头环境正常
+- exit code: 0
