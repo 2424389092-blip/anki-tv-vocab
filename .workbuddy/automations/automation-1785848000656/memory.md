@@ -78,3 +78,12 @@
 - 推送：✅ 成功（`d01f269..2a649b5 main -> main`，track 已建立）
 - 凭据：store 助手读取缓存 token，无交互式登录框，无头环境正常
 - exit code: 0
+
+## 2026-08-29 03:06 运行（每日定时）
+- 命令：`GIT_SYNC_HELPER=store bash git-sync.sh`（dangerouslyDisableSandbox，走宿主机网络）
+- 改动检测：有改动（1 file changed, 8 insertions+）——自动化 memory.md 触发本次提交
+- 提交：✅ 成功（commit `d07fba3`，`chore: sync 2026-08-29`）
+- 推送：❌ 失败（exit 128）——`fatal: unable to access 'https://github.com/2424389092-blip/anki-tv-vocab.git/': Failed to connect to github.com port 443 after 21128 ms: Could not connect to server`
+- 网络诊断：DNS 可解析 github.com（→20.205.243.166），但 curl 到 https://github.com 超时（HTTP:000，~27s）；属当前环境到 GitHub 的 HTTPS 出站被阻断/不可达，非脚本或凭据问题
+- 凭据：store 助手读取缓存 token 正常，无交互式登录框
+- 处理：本地提交已落地，未推送；按任务约定仅在日志记录错误，不重试阻断。下次运行脚本会自动重新 push（commit 已在，仅 push 阶段）
