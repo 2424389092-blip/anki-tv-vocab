@@ -96,3 +96,12 @@
 - 网络诊断：仍属当前环境到 GitHub 的 HTTPS 出站被阻断/不可达（与 2026-08-29 完全一致），非脚本或凭据问题
 - 凭据：store 助手读取缓存 token 正常，无交互式登录框
 - 处理：本地提交已落地，未推送；按任务约定仅在日志记录错误，不重试阻断。下次运行脚本会自动重新 push（commit feedbe8 已在，仅缺 push 阶段）
+
+## 2026-08-30 22:37 运行（每日定时）
+- 命令：`GIT_SYNC_HELPER=store bash git-sync.sh`（dangerouslyDisableSandbox，走宿主机网络）
+- 改动检测：有改动（1 file changed, 9 insertions+）——今日 03:28 那次运行的 memory.md 记录写入后尚未提交，触发本次提交
+- 提交：✅ 成功（commit `8fdea92`，`chore: sync 2026-08-30`）
+- 推送：❌ 失败（exit 128）——`fatal: unable to access 'https://github.com/2424389092-blip/anki-tv-vocab.git/': Recv failure: Connection was reset`
+- 网络诊断：仍是当前环境到 GitHub 的 HTTPS 出站被阻断/不可达（本次表现为连接被重置，与 08-29/08-30 03:28 的超时同属网络不可达），非脚本或凭据问题
+- 凭据：store 助手读取缓存 token 正常，无交互式登录框
+- 处理：本地提交已落地（累计未推送：feedbe8、8fdea92），未推送；按任务约定仅在日志记录错误，不重试阻断。下次运行脚本会自动重新 push
