@@ -42,10 +42,10 @@ CSV_SCRIPT="$SKILL_DIR/scripts/csv_to_cards.py"
 SHOWS="$SKILL_DIR/scripts/shows.json"
 ```
 
-如果依赖未安装，先安装（使用清华镜像）：
+如果依赖未安装，先安装（edge-tts 建议用官方源，镜像可能滞后）：
 
 ```bash
-"$PYTHON" -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple genanki edge-tts
+"$PYTHON" -m pip install genanki edge-tts
 ```
 
 ### 验证安装
@@ -310,7 +310,12 @@ BUILD_SCRIPT="$SKILL_DIR/scripts/anki_tv_vocab.py"
 - 音频质量足够日常记忆使用
 
 ### Q: TTS 生成失败
-- 检查网络连接（edge-tts 需要访问微软服务）
+- **报 `403 Invalid response status`**：不是网络问题，是 edge-tts 版本过旧导致 `Sec-MS-GEC` 令牌校验失效。用官方 PyPI 源升级到最新版（2026-11 实测 7.2.8 会 403，7.3.1 正常）：
+  ```bash
+  "$PYTHON" -m pip install -U -i https://pypi.org/simple edge-tts
+  ```
+  注意清华镜像可能滞后，别用 `-i` 指向镜像升级。
+- 检查网络连接（edge-tts 需要访问微软服务；本机沙箱可能拦截，必要时关沙箱）
 - 确认 edge-tts 已正确安装
 - 可以用 `--no-audio` 先生成无音频版本
 
